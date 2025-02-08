@@ -1,0 +1,5 @@
+service : {
+  get_count : () -> (nat32) query;
+  increment : () -> (nat32);
+  decrement : () -> (nat32);
+}
